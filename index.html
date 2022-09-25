@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" name="viewport"  content="width=device-width, initial-scale=1">
   <title>Title</title>
-  <link rel="stylesheet" href="design-home.css" >
+  <link rel="stylesheet" href="design-detail.css" >
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -18,111 +18,51 @@
   </div>
 
   <div class="underHeader">
-    <form>
-      <input type="text" class="search" placeholder="&nbsp &nbsp &#xF002; &nbsp &nbsp Search for a county.." style="font-family:NunitoSans-Light, FontAwesome" />
-
-      <select class="region" id="region" required name="region">
-        <option value="Africa">Africa</option>
-        <option value="America">America</option>
-        <option value="Asia">Asia</option>
-        <option value="Europe">Europe</option>
-        <option value="Oceania">Oceania</option>
-      </select>
-    </form>
+    <button class="back" ><i class="material-icons">&#xe317;</i> Back</button>
   </div>
 
+  <div class="mainDiv">
 
-  <div class="row">
-    <div class="column">
-      <div class="content">
-        <img src="images/de.svg" alt="Germany" class="image">
-        <div class="textt">
-        <h3 class="name">Germany</h3>
-        <p class="description">Population:&nbsp<span class="span">B1.770.900</span></p>
-        <p class="description">Region:&nbsp<span class="span">Europe</span></p>
-        <p class="description">Capital:&nbsp<span class="span">Berlin</span></p>
-        </div>
+   <div class="img"><img class="flagImage" src = "images/Flag_of_Belgium.svg.png" alt="Germany"/></div>
+
+   <div class="behindIMG">
+      <div class="row1">
+          <div class="column1">
+              <div class="content1">
+                      <p class="extrabold">Belgium &nbsp</p>
+                      <p class="description">Native Name:&nbsp<span class="span">België</span></p>
+                      <p class="description">Population:&nbsp<span class="span">11.319.511</span></p>
+                      <p class="description">Region:&nbsp<span class="span">Europe</span></p>
+                      <p class="description">Sub Region:&nbsp<span class="span">Western Europe</span></p>
+                      <p class="description">Capital:&nbsp<span class="span">Berlin</span></p>
+              </div>
+          </div>
+
+          <div class="column2">
+              <div class="content2" >
+                      <p class="description">Top Level Domain:&nbsp<span class="span">be</span></p>
+                      <p class="description">Currencies:&nbsp<span class="span">Euro</span></p>
+                      <p class="description">Languages:&nbsp<span class="span">Dutch, French, German</span></p>
+              </div>
+          </div>
       </div>
-    </div>
-    <div class="column">
-      <div class="content">
-        <img src="images/us.svg" alt="United" class="image">
-        <div class="textt">
-        <h3 class="name">United States of America</h3>
-        <p class="description">Population:&nbsp<span class="span">323.947.000</span></p>
-        <p class="description">Region:&nbsp<span class="span">Americas</span></p>
-        <p class="description">Capital:&nbsp<span class="span">Washington.D.C</span></p>
-        </div>
-      </div>
-    </div>
-    <div class="column">
-      <div class="content">
-        <img src="images/br.svg" alt="Brazil" class="image">
-        <div class="textt">
-        <h3 class="name">Brazil</h3>
-        <p class="description">Population:&nbsp<span class="span">206.135.893</span></p>
-        <p class="description">Region:&nbsp<span class="span">Americas</span></p>
-        <p class="description">Capital:&nbsp<span class="span">Brasilia</span></p>
-        </div>
-      </div>
-    </div>
-    <div class="column">
-      <div class="content">
-        <img src="images/is.svg" alt="Iceland" class="image">
-        <div class="textt">
-        <h3 class="name">Iceland</h3>
-        <p class="description">Population:&nbsp<span class="span">334.300</span></p>
-        <p class="description">Region:&nbsp<span class="span">Europe</span></p>
-        <p class="description">Capital:&nbsp<span class="span">Reykjavik</span></p>
-        </div>
-      </div>
-    </div>
-    <div class="column">
-      <div class="content">
-        <img src="images/af.svg" alt="Afghanistan" class="image">
-        <div class="textt">
-        <h3 class="name">Afghanistan</h3>
-        <p class="description">Population:&nbsp<span class="span">27.657.145</span></p>
-        <p class="description">Region:&nbsp<span class="span">Asia</span></p>
-        <p class="description">Capital:&nbsp<span class="span">Kabul</span></p>
-        </div>
-      </div>
-    </div>
-    <div class="column">
-      <div class="content">
-        <img src="images/ax.svg" alt="AlandIslands" class="image">
-        <div class="textt">
-        <h3 class="name">Aland Islands</h3>
-        <p class="description">Population:&nbsp<span class="span">28.875</span></p>
-        <p class="description">Region:&nbsp<span class="span">Europe</span></p>
-        <p class="description">Capital:&nbsp<span class="span">Mariehamn</span></p>
-        </div>
-      </div>
-    </div>
-    <div class="column">
-      <div class="content">
-        <img src="images/al.svg" alt="Albania" class="image">
-        <div class="textt">
-        <h3 class="name">Albania</h3>
-        <p class="description">Population:&nbsp<span class="span">2.886.026</span></p>
-        <p class="description">Region:&nbsp<span class="span">Europe</span></p>
-        <p class="description">Capital:&nbsp<span class="span">Tirana</span></p>
-        </div>
-      </div>
-    </div>
-    <div class="column">
-      <div class="content">
-        <img src="images/dz.svg" alt="Algeria" class="image">
-        <div class="textt">
-        <h3 class="name">Algeria</h3>
-        <p class="description">Population:&nbsp<span class="span">40.400.000</span></p>
-        <p class="description">Region:&nbsp<span class="span">Africa</span></p>
-        <p class="description">Capital:&nbsp<span class="span">Algeria</span></p>
-        </div>
-      </div>
-    </div>
+
+      <div class="row2">
+          <div class="part1" >
+              <label class="bold">Border Countries:&nbsp &nbsp</label>
+          </div>
+          <div class="part2" >
+              <input class="button" type="submit" value="France" style="order: 1" />
+              <input class="button" type="submit" value="Germany" style="order: 2" />
+              <input class="button" type="submit" value="Netherlands" style="order: 3" />
+          </div>
+          </div>
+
+   </div>
   </div>
 </div>
 
 </body>
 </html>
+
+
